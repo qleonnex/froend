@@ -12,6 +12,7 @@ import i18next from "i18next";
 import HttpApi from "i18next-http-backend";
 import Router from "../router/Router";
 import StoreProvider from "../store-provider/StoreProvider";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 i18next
   .use(initReactI18next)
@@ -23,6 +24,8 @@ i18next
       escapeValue: false,
     },
   });
+
+const queryClient = new QueryClient();
 
 const Main = () => {
   const [initDataUnsafe] = useInitData();
@@ -36,9 +39,11 @@ const Main = () => {
   return (
     <I18nextProvider i18n={i18next}>
       <WebAppProvider>
+        <QueryClientProvider client={queryClient}>
         <StoreProvider>
           <Router />
         </StoreProvider>
+        </QueryClientProvider>
       </WebAppProvider>
     </I18nextProvider>
   );

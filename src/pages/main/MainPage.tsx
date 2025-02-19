@@ -5,6 +5,7 @@ import GameControls from "../../components/main/GameControls";
 import JackpotCard from "../../components/main/JackpotCard";
 import WinDisplay from "../../components/main/WinDisplay";
 import banner from "../../assets/jackpot-banner.png";
+import { useGetRequestToken } from "./hooks/useGetRequestToken.ts";
 
 function MainPage() {
   const [initDataUnsafe, initData] = useInitData();
@@ -38,7 +39,9 @@ function MainPage() {
     if (!user) return;
     updateGameState();
   }, [user]);
-
+  
+  useGetRequestToken();
+  
   return (
     <div className="bg-gray-900 flex flex-col">
       {/* Баннер джекпота */}
