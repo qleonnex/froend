@@ -1,0 +1,14 @@
+@keyframes expand {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+.expand {
+  animation-duration: 5s;
+  animation-name: expand;
+}

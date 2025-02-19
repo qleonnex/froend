@@ -1,0 +1,211 @@
+{
+  "components": {
+    "userProfile": {
+      "level": {
+        "novice": "Novice",
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold"
+      }
+    },
+    "gameStatus": {
+      "players": "Players"
+    },
+    "navMenu": {
+      "main": "Main",
+      "exchange": "Exchange",
+      "wallet": "Wallet",
+      "friends": "Friends"
+    },
+    "videoItem": {
+      "created": "Created",
+      "publish": "Publish"
+    },
+    "questionModal": {
+      "button": "Ok"
+    }
+  },
+  "pages": {
+    "main": {
+      "scannerStates": {
+        "positioning": "Place your head in \n the mind-scanner!",
+        "positioningWithout": "Click on to the scanner \n to send a photo",
+        "pending": "Calculating the token hash \n in your memory block!",
+        "pendingWithout": "Photo processing \n is in progress.",
+        "success": "Hash found, token recorded \n and extracted to your account!",
+        "successWithout": "Photo accepted! Happy mining!",
+        "error": "Strain your brain! \n Help find the token!)))",
+        "errorWithout": "Error processing photo.\n Try again!",
+        "cameraIsNotAllowed": "You've given up the most profitable mining option, but you can earn $DICE by uploading photos you take of interesting places and people, with their permission of course!",
+        "cameraIsNotAllowedReg": "To register, you need to create a mental image. Please turn on the camera",
+        "inviteFriend": "Invite a friend"
+      },
+      "diceMining": "mDICE Mining",
+      "available": "Available"
+    },
+    "history": {
+      "head": "History",
+      "title": "Bet:",
+      "descWin": "Win. It dropped:",
+      "descLose": "Loss. It dropped:"
+    },
+    "friends": {
+      "inviteText": {
+        "part1": "Get a fixed bonus up to 5K",
+        "part2": "for you and your friend",
+        "part3": "Each time your friend receives a reward, 10% of their reward is also paid to you. In addition, 2% of the reward of your friend's friends will also be paid to you!"
+      },
+      "copyLink": "Copy Link",
+      "friendsInvited": {
+        "1": "Friends",
+        "2": "invited",
+        "premium": "Premium",
+        "basic": "Basic"
+      },
+      "friendsBonus": {
+        "1": "Bonus",
+        "2": "for friends"
+      }
+    },
+    "friendList": {
+      "invitedFriends": "Invited Friends",
+      "empty": "There is no one here yet"
+    },
+    "registration": {
+      "instructions": "To register, you will need to create a mental image. To do this, follow the instructions on the next page. Attention! Your face should be clearly visible on the scanner when you repeat to yourself 'I want to get a lot of $DICE'!",
+      "continue": "Continue",
+      "registration": "Mining option",
+      "method1": {
+        "caption": "Option #1",
+        "name": "With face scanning",
+        "text": "10 times more profitable mining by creating a photo of your face when mining $DICE from your memory block, and then creating a video clip from them."
+      },
+      "method2": {
+        "caption": "Option #2",
+        "name": "Without face scanning",
+        "text": "Mining by uploading photos you created from your smartphone's rear camera and then automatically converting them into videos."
+      },
+      "subheader": "Chose the mining method that right for you and click on it",
+      "scannerStates": {
+        "positioning": "Align your face with the mind scanner and repeat to yourself the phrase - 'I want to get a lot of $DICE tokens!'",
+        "pending": "The mind scanner is calculating your mental image.",
+        "success": "Mental image created! Happy mining!",
+        "error": "Attention! Mental field distortion, try again!"
+      }
+    },
+    "workInProgress": {
+      "part1": "Page is",
+      "part2": "under development"
+    },
+    "boosts": {
+      "goto": "Go",
+      "perform": "To perform",
+      "video": {
+        "header": "Publish a video of the token mining process",
+        "description": "Videos are created automatically daily. To create a video, you need to mine tokens at least 10 times!",
+        "price": "10K per photo",
+        "priceWithout": "1K per photo",
+        "publication": "Publication",
+        "comment": "Comment",
+        "toCreateAVideo": "to create a video",
+        "tillMax": "untill maximal reward"
+      },
+      "voucher": {
+        "header": "Buy and hold a voucher from premarket",
+        "description": "Buy and hold a voucher from premarket",
+        "price": "5K/day"
+      },
+      "holding": {
+        "buy": {
+          "header": "Buy $TAXI",
+          "description": "Buy a minimum of 10 $TAXI for 0.0875 $TON",
+          "price": "500K",
+          "sub": "Total"
+        },
+        "sell": {
+          "header": "Sell $TAXI",
+          "description": "Sell your $TAXI at the price of 0.00875 $TON per 1 $TAXI",
+          "price": "-35K",
+          "sub": "My"
+        }
+      },
+      "mining": {
+        "header": "Mining $mDICE",
+        "description": "Mining $mDICE",
+        "price": "1K/photo"
+      },
+      "onchain": {
+        "header": "Daily On-Chain & Check-In",
+        "description": "A little support",
+        "price": "62,5K"
+      },
+      "support": {
+        "header": "Support project",
+        "description": "A little support",
+        "price": "10K"
+      },
+      "tabs": {
+        "daily": "Daily",
+        "reusable": "Reusable"
+      }
+    },
+    "buyingBoost": {
+      "title": "Buying a boost",
+      "text": "Buy and sell tokens to mine more DICE!",
+      "exchange": "Buy on the exchange",
+      "market": "Buy by market",
+      "exchangeText": "Fish is a text with a description of what buying on the stock exchange is. Fish-text, fish-text, text, text, text."
+    },
+    "boostMarket": {
+      "head": "Buying a boost by market",
+      "choosingToken": "Choosing a token",
+      "buy": "BUY",
+      "confirm": "Confirm",
+      "modalTitle": "Transaction confirmation",
+      "modalText": "When you purchase a $100 TAXI, 0.01 TON will be debited from your wallet in the bot. You will also receive a reward of 100,000 game DICE.Are you confirming the transaction?"
+    },
+    "exchange": {
+      "head": "Purchase of a boost on the exchange",
+      "search": "Pair search",
+      "all": "All",
+      "name": "NAME",
+      "volume": "ОБЪЁМ",
+      "price": "ЦЕНА",
+      "change": "CHNG.",
+      "favourite": "Favorites",
+      "favourite_pair": "Add your favorite pairs.",
+      "tokens": "All tokens",
+      "trading": {
+        "volume": "24h Volume:",
+        "price": "Price",
+        "quantity": "Qty",
+        "button1": "Buy",
+        "button2": "Sell",
+        "limit": "Limit",
+        "balance": "Balance",
+        "total": "Total"
+      },
+      "orders": {
+        "checkbox": "Hide other pairs.",
+        "cards": {
+          "title": "Purchase Limit",
+          "button": "Cancel the order",
+          "rate": "Rate",
+          "quantity": "Qty",
+          "completed": "Completed"
+        }
+      },
+      "tabs": {
+        "tab1": "Trading",
+        "tab2": "Open orders",
+        "tab3": "grafic"
+      }
+    },
+
+    "telegramRedirect": {
+      "title": "Better Experience in Telegram",
+      "description": "This game works best in Telegram. Click below to open in Telegram.",
+      "button": "Open in Telegram"
+    }
+  }
+}
